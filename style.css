@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Overpass&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(216, 12%, 8%);
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  /* align-items: center;
+  flex-wrap: nowrap; */
+}
+
+.first {
+  width: 24%;
+  height: 375px;
+  background-color: hsla(212, 32%, 24%, 0.938);
+  border-radius: 25px;
+  position: absolute;
+  left: 35%;
+  top: 25%;
+}
+
+.element-hidden {
+  visibility: hidden;
+}
+
+.second {
+  width: 24%;
+  height: 375px;
+  background-color: hsla(212, 32%, 24%, 0.938);
+  border-radius: 25px;
+  position: absolute;
+  left: 35%;
+  top: 25%;
+}
+
+img {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  left: 16px;
+  top: 16px;
+}
+
+.img-container {
+  background-color: hsla(217.7, 21.2%, 39.8%, 0.93);
+  border-radius: 25px;
+  width: 47px;
+  height: 47px;
+  position: relative;
+  left: 20px;
+  top: 22px;
+}
+
+h2 {
+  color: white;
+  position: relative;
+  top: 25px;
+  left: 21px;
+}
+
+p {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  color: hsl(213, 13%, 73%);
+  font-size: 15px;
+  margin: 0;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  right: 20px;
+  top: 15px;
+}
+
+.rating-container {
+  background-color: hsla(217.7, 21.2%, 39.8%, 0.93);
+  border-radius: 25px;
+  width: 47px;
+  height: 47px;
+  position: relative;
+  left: 20px;
+  top: 25px;
+}
+
+.rating-container:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.rating-number:hover {
+  color: white;
+}
+
+.rating-number {
+  position: relative;
+  top: 0px;
+  left: 19px;
+  top: 15px;
+}
+
+.btn {
+  position: relative;
+  top: 75px;
+  width: 90%;
+  left: 18px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  color: white;
+}
+
+.btn:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+.thank-you {
+  width: 45%;
+  height: 30%;
+  position: relative;
+  left: 25%;
+  top: 35px;
+}
+
+.result {
+  width: 50%;
+  height: 7%;
+  background-color: hsla(217.7, 21.2%, 39.8%, 0.93);
+  position: relative;
+  top: 45px;
+  left: 80px;
+  border-radius: 20px;
+  text-align: center;
+  color: hsl(25, 97%, 53%);
+  font-size: 14px;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 17px;
+}
+.gratitude {
+  position: relative;
+  top: 50px;
+  left: 30%;
+}
+
+.message {
+  position: relative;
+  top: 40px;
+  margin: 0;
+}
+
+.mid-para {
+  left: 25px;
+}
+
+.last-para {
+  left: 40%;
+}
+
+.center {
+  position: relative;
+  right: 5px;
+}
+
+.attribution {
+  font-size: 25px;
+  text-align: center;
+  position: absolute;
+  top: 700px;
+  left: 420px;
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 375px) {
+  .first {
+    width: 100%;
+  }
+  .second {
+    width: 100%;
+  }
+  .attribution {
+    font-size: 25px;
+    top: 600px;
+    left: 255px;
+  }
+}
